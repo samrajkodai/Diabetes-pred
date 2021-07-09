@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'main.css'%}">
+    <title>welcome</title>
+</head>
+<body>
+    <h1><b> Please Out This and Find Out The Result!!!!!!!!!!!!</b>
+    </h1> 
+    <img src="{%static '1.jpeg'%}" width="300px">
+    {%csrf_token%}
+    <form class='sam' action="{%url 'result'%}">
+    <div class="centered">
+        <h5 style="text-align: center;">Your Age</h5>
+        <input type="text" name="Age" class="InputStyle" required>
+        <h5 style="text-align: center;">Your Gender</h5>
+        <select name="Gender_Male" class="InputStyle">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        <h5 style="text-align: center;">Polyuria</h5>
+          <select name="Polyuria_Yes" class="InputStyle">
+              <option value="yes">Yes</option>
+              <option value="No">No</option>
+          </select>
+          <h5 style="text-align: center;">Polydipsia</h5>
+          <select name="Polydipsia_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h5 style="text-align: center;">suddenweightloss</h5>
+        <select name="suddenweightloss_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h5 style="text-align: center;">weakness</h5>
+        <select name="weakness_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h5 style="text-align: center;">Polyphagia</h5>
+        <select name="Polyphagia_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h5 style="text-align: center;">visualblurring</h5>
+        <select name="visualblurring_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h5 style="text-align: center;">Itching</h5>
+        <select name="Itching_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h5 style="text-align: center;">Irritability</h5>
+        <select name="Irritability_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h5 style="text-align: center;">delayedhealing</h5>
+        <select name="delayedhealing_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <h5 style="text-align: center;">musclestiffness</h5>
+        <select name="musclestiffness_Yes" class="InputStyle">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br>
+        <br>
+          <input type="submit" class="btn btn-warning" style="text-align: center;"> 
+          </div>
+    </form>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
