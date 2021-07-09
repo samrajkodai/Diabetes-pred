@@ -1,0 +1,63 @@
+form{
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 2 6px 12px 0 rgba(245, 7, 7, 0.2);
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: red;
+}
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color:#557A95;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.bg {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-image: url(http://i.imgur.com/w16HASj.png);
+    background-size: 100% 100%;
+    background-position: top center;
+}
+.InputStyle {
+    border-radius: 25px;
+    border: solid 1px rgb(24, 1, 1);
+    background: transparent;
+    background-image:url("adobestock_276205639.jpeg");
+    width: 200px;
+    padding: 15px 25px;
+    margin-left: 8%;
+   
+}
+.centered {
+    border-radius: 20px;
+    position: absolute;
+    border: solid 1px rgb(17, 14, 14);
+    width: 300px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60%, -20%);
+    margin-left: 5%;
+}
+
+
+img{
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 1100px;
+    border-radius: 10%;
+    position: absolute;
+}
+h1{
+    text-align: center;
+}
+h5{
+    color: rgb(2, 2, 2);
+}
