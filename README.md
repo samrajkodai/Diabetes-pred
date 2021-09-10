@@ -37,7 +37,7 @@ A confusion matrix is a technique for summarizing the performance of a classific
 for this particular usecase i got 0.9615384615384616 accuracy score.
 
 ## Model Deployment
-* I Deploy that model in a web page for that i used Django,HTML,CSS and Heroku.
+I Deploy that model in a web page for that i used Django,HTML,CSS and Heroku.
 ![index](https://user-images.githubusercontent.com/61903698/132537975-f7b959bd-c41b-453c-95ec-a661e5f9d892.png)
 
 
