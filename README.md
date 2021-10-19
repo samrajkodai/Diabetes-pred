@@ -1,4 +1,4 @@
-# Diabetics prediction
+# Diabetics predictions
 
 # AIM
   The Aim of the project is to find whether the person have a Diabetes or not.Based on the user information this ML model find out whether the person have a Diabetes or not.
